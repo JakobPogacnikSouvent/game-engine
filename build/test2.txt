@@ -1,0 +1,30 @@
+CMake Warning (dev) at /usr/share/cmake-3.11/Modules/FindOpenGL.cmake:270 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+Call Stack (most recent call first):
+  CMakeLists.txt:10 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/elliot/Documents/gitProjects/game-engine/build
+[ 50%] Linking CXX executable main
+/usr/bin/ld: /home/elliot/Documents/gitProjects/game-engine/deps/GLFW/lib/libglfw3.a(x11_window.c.o): undefined reference to symbol 'XPending'
+/usr/lib/libX11.so.6: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/main.dir/build.make:87: main] Error 1
+make[1]: *** [CMakeFiles/Makefile2:68: CMakeFiles/main.dir/all] Error 2
+make: *** [Makefile:84: all] Error 2
