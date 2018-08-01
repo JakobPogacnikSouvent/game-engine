@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -std=c++14 -Wall -Wextra -pedantic  -rdynamic CMakeFiles/main.dir/main.cpp.o  -o main -lGL -lGLU /home/elliot/Documents/gitProjects/game-engine/deps/GLFW/lib/libglfw3.a -lX11 -lXxf86vm -lXrandr -lpthread -lXi -ldl -lXinerama -lXcursor 

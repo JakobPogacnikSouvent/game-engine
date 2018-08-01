@@ -1,3 +1,0 @@
-/home/elliot/Documents/gitProjects/game-engine/build/CMakeFiles/rebuild_cache.dir
-/home/elliot/Documents/gitProjects/game-engine/build/CMakeFiles/main.dir
-/home/elliot/Documents/gitProjects/game-engine/build/CMakeFiles/edit_cache.dir
